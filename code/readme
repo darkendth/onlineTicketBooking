@@ -1,0 +1,6 @@
+
+To run program.
+1. make (create myserver file)
+2. ./myserver <port>
+
+curl -sS  'http://127.0.0.1:2048/cgi-bin?email=tester@gmail.com&quantity=10&category=premium'

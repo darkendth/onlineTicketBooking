@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Show!</title>
+</head>
+<body>
+    <h3>The Ultimate Show.</h3>
+
+    <form action="/cgi-bin/" method="GET">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity">
+        <br>
+        <input type="radio" id="normal" name="category" value="normal">
+        <label for="normal">Normal</label><br>
+        <input type="radio" id="deluxe" name="category" value="deluxe">
+        <label for="deluxe">Deluxe</label><br>
+        <input type="radio" id="premium" name="category" value="premium">
+        <label for="premium">Premium</label><br>
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>
